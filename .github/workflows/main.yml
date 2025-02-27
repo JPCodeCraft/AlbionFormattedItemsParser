@@ -30,7 +30,7 @@ jobs:
 
       - name: Commit and push if it's not a pull request
         run: |
-          git config --local user.email "albionfreemarket@gmail.com"
+          git config --global user.email "jpcode@craft.com"
           git config --local user.name "JPCodeCraft"
           git add us_name_mappings.json
           git commit -m "Add changes" -a || echo "No changes to commit"
