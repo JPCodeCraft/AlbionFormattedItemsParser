@@ -2,7 +2,7 @@ import requests
 import json
 
 # Fetch the file
-response = requests.get('https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/formatted/items.txt')
+response = requests.get('https://raw.githubusercontent.com/JPCodeCraft/ao-bin-dumps/master/formatted/items.txt')
 
 # Split the file into lines
 lines = response.text.split('\n')
